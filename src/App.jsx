@@ -139,8 +139,7 @@ export default function App() {
             {tab === 'audit' && <AuditLog refreshKey={key} />}
           </>
         )}
-        <footer className="muted small">MILCO Financial Information System · Limkokwing FIS group project. Sample figures and sample products until MILCO's own price list and accounts are loaded. Amounts in Maloti (M).</footer>
-      </main>
+       </main>
       {toast && <div className="toast" role="status">{toast}</div>}
     </div>
   );
